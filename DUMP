@@ -1,2 +1,5 @@
 #!/bin/bash
- python3 -c "import FILE()"
+python3 -c "
+import FILE
+FILE.approval()
+"
